@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tinymce emr Demo Page</title>
+  <style>
+    .tox-editor-container .tox-toolbar-overlord{
+      z-index: 1;
+    }
+
+    .tox-editor-container .tox-sidebar-wrap {
+      padding: 5rem 10rem;
+      max-height: 700px;
+      overflow-y: auto;
+      background-color: #eee;
+    }
+
+    .tox-editor-container .tox-edit-area {
+      width: 21cm;
+      max-width: 100%;
+      min-height: 29.7cm;
+      margin: 0 auto;
+      padding: 2cm 2cm;
+      border: 1px #d3d3d3 solid;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,.1);
+      z-index: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Tinymce emr Page</h1>
+    <div id="ephox-ui">
+      <textarea></textarea>
+    </div>
+    <script src="../../../../js/tinymce/tinymce.js"></script>
+    <script src="../../../../scratch/demos/core/demo.js"></script>
+    <script>demos.EmrDemo();</script>
+  </main>
+</body>
+
+</html>

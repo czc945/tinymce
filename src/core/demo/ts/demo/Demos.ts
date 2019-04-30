@@ -8,6 +8,7 @@ import InlineDemo from './InlineDemo';
 import SourceDumpDemo from './SourceDumpDemo';
 import TinyMceDemo from './TinyMceDemo';
 import UiContainerDemo from './UiContainerDemo';
+import EmrDemo from './EmrDemo';
 
 declare const window: any;
 
@@ -21,5 +22,6 @@ window.demos = {
   TinyMceDemo,
   UiContainerDemo,
   AnnotationsDemo,
-  SourceDumpDemo
+  SourceDumpDemo,
+  EmrDemo
 };
