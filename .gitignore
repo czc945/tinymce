@@ -42,3 +42,4 @@ mentions
 **/instrumented_*
 .rpt2_cache
 tinymce-*.tgz
+js
