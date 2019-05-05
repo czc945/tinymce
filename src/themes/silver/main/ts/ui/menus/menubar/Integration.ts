@@ -16,7 +16,7 @@ export interface MenuRegistry {
   menus: Record<string, any>;
 }
 
-const defaultMenubar = 'file edit view insert format tools table help';
+const defaultMenubar = 'file edit view insert format tools table help controls';
 
 const defaultMenus = {
   file: { title: 'File', items: 'newdocument restoredraft | preview | print | deleteallconversations' },
@@ -26,7 +26,8 @@ const defaultMenus = {
   format: { title: 'Format', items: 'bold italic underline strikethrough superscript subscript codeformat | formats blockformats fontformats fontsizes align | removeformat' },
   tools: { title: 'Tools', items: 'spellchecker spellcheckerlanguage | a11ycheck code wordcount' },
   table: { title: 'Table', items: 'inserttable tableprops deletetable row column cell' }, // TODO
-  help: { title: 'Help', items: 'help' }
+  help: { title: 'Help', items: 'help' },
+  controls: { title: 'Controls', items: 'help text select raido checkbox datebox' }
 };
 
 const make = (menu: {title: string, items: string[]}, registry: MenuRegistry, editor): MenubarItemSpec => {

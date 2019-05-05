@@ -90,7 +90,7 @@ export default function () {
     theme: 'silver',
     mobile: {
       plugins: [
-        'autosave lists'
+        'autosave lists noneditable'
       ]
     },
     setup (ed) {
